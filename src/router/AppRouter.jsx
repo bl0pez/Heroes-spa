@@ -1,4 +1,4 @@
-import { Route, Routes } from "react-router-dom";
+import { Navigate, Route, Routes } from "react-router-dom";
 
 import { DcPage, HeroPage, Main, MarvelPage, SearchPage } from "../heroes";
 import { LoginPage } from "../auth/pages/LoginPage";
@@ -14,8 +14,11 @@ export const AppRouter = () => {
           <Route path="dc" element={<DcPage />} />
           <Route path="marvel" element={<MarvelPage />} />
           <Route path="search" element={<SearchPage />} />
-          <Route path="hero" element={<HeroPage />} />
+          <Route path="hero/:id" element={<HeroPage />} />
+          
         </Route>
+
+        <Route path="*" element={<Navigate to="/marvel" />} />
 
       </Routes>
     </>
