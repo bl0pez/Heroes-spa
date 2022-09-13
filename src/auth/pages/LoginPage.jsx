@@ -9,7 +9,7 @@ export const LoginPage = () => {
 
   const handleLogin = () => {
 
-    login('Nomre de Prueba');
+    login('Nombre de Prueba');
 
     navigate("/marvel", {
       replace: true,
