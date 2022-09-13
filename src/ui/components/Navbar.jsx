@@ -12,7 +12,7 @@ export const Navbar = () => {
 
   return (
     <nav className="navbar navbar-expand-sm navbar-dark bg-dark px-3">
-      <Link className="navbar-brand" to="/">
+      <Link className="navbar-brand" to="/marvel">
         Asociaciones
       </Link>
 

@@ -15,10 +15,9 @@ export const AppRouter = () => {
           <Route path="marvel" element={<MarvelPage />} />
           <Route path="search" element={<SearchPage />} />
           <Route path="hero/:id" element={<HeroPage />} />
-          
         </Route>
 
-        <Route path="*" element={<Navigate to="/marvel" />} />
+        <Route path="*" element={<Navigate to="/login" />} />
 
       </Routes>
     </>
