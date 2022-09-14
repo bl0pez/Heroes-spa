@@ -1,9 +1,9 @@
-import { Navigate, Route, Routes } from "react-router-dom";
+import { Navigate, Route, Routes} from 'react-router-dom';
+import { useContext } from 'react';
+import { AuthContext } from '../auth';
 
-import { DcPage, HeroPage, Main, MarvelPage, SearchPage } from "../heroes";
-import { LoginPage } from "../auth/pages/LoginPage";
-import { useContext } from "react";
-import { AuthContext } from "../auth";
+import { LoginPage } from '../auth/pages/LoginPage';
+import { DcPage, HeroPage, Main, MarvelPage, SearchPage } from '../heroes';
 
 export const AppRouter = () => {
 
