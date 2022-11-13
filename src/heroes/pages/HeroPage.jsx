@@ -15,6 +15,7 @@ export const HeroPage = () => {
       return;
     }
 
+    
     navigate("/dc");
 
   }

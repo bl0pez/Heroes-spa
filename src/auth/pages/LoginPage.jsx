@@ -12,23 +12,23 @@ export const LoginPage = () => {
     const lastPath = localStorage.getItem('lastPath') || '/';
     login('Nombre de Prueba');
 
-    console.log('lastPath', lastPath);
-
     navigate(lastPath, {
       replace: true,
     });
   }
 
   return (
-    <div className='container'>
-      <h1>Login</h1>
+    <div className='content-center'>
+      <div className='text-center d-grid gap-2 col-2 mx-auto'>
+        <h1>Login</h1>
 
-      <button 
-        className='btn btn-primary'
-        onClick={handleLogin}
+        <button
+          className='btn btn-primary'
+          onClick={handleLogin}
         >
-        Login
-      </button>
+          Ingresar
+        </button>
+      </div>
     </div>
   )
 }
