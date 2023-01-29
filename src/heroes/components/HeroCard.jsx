@@ -9,7 +9,7 @@ export const HeroCard = ({
     characters,
 }) => {
 
-    const heroImageUrl = `./assets/heroes/${id}.jpg`;
+    const heroImageUrl = `https://raw.githubusercontent.com/bl0pez/Heroes-spa/master/public/assets/heroes/${id}.jpg`;
 
     const charactesByHero = (<p className="card-text">{ characters }</p>)
 
