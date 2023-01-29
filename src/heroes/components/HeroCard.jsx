@@ -14,7 +14,7 @@ export const HeroCard = ({
     const charactesByHero = (<p className="card-text">{ characters }</p>)
 
   return (
-    <div className="col">
+    <div className="col-md-4 col-sm-6 col-xs-12">
         <div className="card">
             <div className="row no-gutters">
             <div className="col-4">
